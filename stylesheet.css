@@ -1,0 +1,623 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: 3b3c49;
+}
+
+.main-title {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 80px;
+  background-color: #e2e2e2;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.links {
+  color: gray;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color 0.15s ease-in;
+}
+
+.link:hover {
+  transition: color 0.15s ease-in;
+}
+
+.link:active {
+  transition: color 0.15s ease-in;
+}
+
+.link:focus {
+  transition: color 0.15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.black {
+  color: #000;
+}
+
+.gray {
+  color: #777;
+}
+
+.pa3 {
+  padding: 1rem;
+}
+
+.mr3 {
+  margin-right: 1rem;
+}
+
+.f6 {
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.dim {
+  opacity: 1;
+  transition: opacity 0.15s ease-in;
+}
+
+.dim:hover,
+.dim:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+
+.dim:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+@media screen and (min-width: 30em) {
+  .pa4-ns {
+    padding: 2rem;
+  }
+
+  .f5-ns {
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+.ba {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.br2 {
+  border-radius: 0.25rem;
+}
+
+.bw1 {
+  border-width: 0.125rem;
+}
+
+.bw2 {
+  border-width: 0.25rem;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.fw6 {
+  font-weight: 600;
+}
+
+.tracked {
+  letter-spacing: 0.1em;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color 0.15s ease-in;
+}
+
+.link:hover {
+  transition: color 0.15s ease-in;
+}
+
+.link:active {
+  transition: color 0.15s ease-in;
+}
+
+.link:focus {
+  transition: color 0.15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.black {
+  color: #000;
+}
+
+.near-black {
+  color: #111;
+}
+
+.dark-gray {
+  color: #333;
+}
+
+.mid-gray {
+  color: #555;
+}
+
+.white {
+  color: transparent;
+}
+
+.purple {
+  color: #5e2ca5;
+}
+
+.light-purple {
+  color: #a463f2;
+}
+
+.dark-pink {
+  color: #d5008f;
+}
+
+.hot-pink {
+  color: #ff41b4;
+}
+
+.dark-green {
+  color: #137752;
+}
+
+.navy {
+  color: #001b44;
+}
+
+.dark-blue {
+  color: #00449e;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-near-black {
+  background-color: #111;
+}
+
+.bg-dark-gray {
+  background-color: #3b4649;
+  color: white;
+}
+
+.bg-mid-gray {
+  background-color: #555;
+}
+
+.bg-purple {
+  background-color: #5e2ca5;
+}
+
+.bg-light-purple {
+  background-color: #a463f2;
+}
+
+.bg-dark-pink {
+  background-color: #d5008f;
+}
+
+.bg-hot-pink {
+  background-color: #ff41b4;
+}
+
+.bg-dark-green {
+  background-color: #137752;
+}
+
+.bg-navy {
+  background-color: #001b44;
+}
+
+.bg-dark-blue {
+  background-color: #00449e;
+}
+
+.pv2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.ph3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb4 {
+  margin-bottom: 2rem;
+}
+
+.mt4 {
+  margin-top: 2rem;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.f6 {
+  font-size: 10px;
+  color: gray;
+}
+
+.dim {
+  opacity: 1;
+  transition: opacity 0.95s ease-in;
+}
+
+.dim:hover,
+.dim:focus {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in;
+}
+
+.dim:active {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-out;
+}
+
+.button {
+  margin: 0.3%;
+}
+
+.intro {
+  position: absolute;
+  padding: 0 20px;
+  top: 30px;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tmessage {
+  color: white;
+  font-weight: bold;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+.aboutmsg {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 8%;
+}
+.apara {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 5%;
+}
+
+.aspect-ratio {
+  height: 0;
+  position: relative;
+}
+
+.aspect-ratio--1x1 {
+  padding-bottom: 100%;
+}
+
+.aspect-ratio--object {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.cover {
+  background-size: cover !important;
+}
+
+.bg-center {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cf:before,
+.cf:after {
+  content: ' ';
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.db {
+  display: block;
+}
+
+.fl {
+  float: left;
+  _display: inline;
+}
+
+.fw4 {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color 0.15s ease-in;
+}
+
+.link:hover {
+  transition: color 0.15s ease-in;
+}
+
+.link:active {
+  transition: color 0.15s ease-in;
+}
+
+.link:focus {
+  transition: color 0.15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.black-90 {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.black-60 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.pb3 {
+  padding-bottom: 1rem;
+}
+
+.ph2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mt2 {
+  margin-top: 0.5rem;
+}
+
+.f5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.f6 {
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 30em) {
+  .w-25-ns {
+    width: 25%;
+  }
+
+  .pa2-ns {
+    padding: 0.5rem;
+  }
+
+  .ph0-ns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .f4-ns {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .w-50-m {
+    width: 50%;
+  }
+}
+
+.portmsg {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.border {
+  /* margin: 0.3%; */
+  margin-top: 65%;
+  background-color: white;
+  /* padding-top: 0.3%; */
+  color: white;
+}
+
+.contact {
+  color: white;
+  font-weight: 200;
+  font-size: 36px;
+  margin-top: 250px;
+  background-color: #8fa6ac;
+}
+
+.ctext {
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+
+  font-weight: 200;
+}
+
+.slinks {
+  font-size: 16px;
+  margin-top: 2%;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+  margin-bottom: 200px;
+  font-weight: bold;
+}
+
+.newTitle {
+  font-size: 50px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+  margin-top: 180px;
+}
+
+.newMsg {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+}
+
+.pbackground {
+  background-color: 3b3c49;
+  margin-top: 20%;
+}
+.gbutton {
+  color: white;
+  margin-right: 75%;
+  margin-top: 1.8%;
+  font-weight: bold;
+}
+
+.pbutton {
+  color: white;
+  margin-right: 74%;
+  margin-top: 2%;
+}
+.serviceList {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+  color: #3b4649;
+}
+.helpmsg {
+  font-size: 48px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  color: #3b4649;
+}
+.serviceMsg {
+  font-size: 18px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+  color: #3b4649;
+  margin-bottom: 2%;
+}
+.cmsg {
+  font-size: 48px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+  margin-top: 210px;
+}
+.collab {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+}
+.hr3 {
+  color: gray;
+}
+.phoneImg {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 150px;
+  padding-right: 50px;
+  float: right;
+}
+.f45 {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 2%;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 120px;
+  margin-bottom: 240px;
+  font-weight: bold;
+  color: white;
+}

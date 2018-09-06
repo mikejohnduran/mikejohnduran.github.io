@@ -503,16 +503,13 @@ body {
   color: white;
   font-weight: 200;
   font-size: 36px;
-  margin-top: 250px;
+
   background-color: #8fa6ac;
 }
 
 .ctext {
-  margin-top: 10%;
-  padding-top: 5%;
-  padding-bottom: 1%;
-
   font-weight: 200;
+  padding-top: 1px;
 }
 
 .slinks {
@@ -531,7 +528,7 @@ body {
   text-align: left;
   margin-left: 100px;
   margin-right: 120px;
-  margin-top: 180px;
+  margin-top: 250px;
 }
 
 .newMsg {
@@ -555,7 +552,7 @@ body {
 
 .pbutton {
   color: white;
-  margin-right: 74%;
+  margin-right: 72%;
   margin-top: 2%;
 }
 .serviceList {
@@ -564,7 +561,7 @@ body {
   text-align: left;
   margin-left: 100px;
   margin-right: 120px;
-  color: #3b4649;
+  color: #8fa6ac;
 }
 .helpmsg {
   font-size: 48px;
@@ -572,18 +569,19 @@ body {
   text-align: left;
   margin-left: 100px;
   margin-right: 120px;
-  margin-top: 8%;
+  margin-top: 6%;
   margin-bottom: 5%;
   color: #3b4649;
 }
 .serviceMsg {
   font-size: 18px;
+  font-family: 'Lato', sans-serif;
   font-weight: 200;
   text-align: left;
   margin-left: 100px;
   margin-right: 120px;
-  color: #3b4649;
-  margin-bottom: 2%;
+  color: black;
+  margin-bottom: 4%;
 }
 .cmsg {
   font-size: 48px;
@@ -620,4 +618,8 @@ body {
   margin-bottom: 240px;
   font-weight: bold;
   color: white;
+}
+.help {
+  background-color: white;
+  padding-bottom: -80px;
 }
